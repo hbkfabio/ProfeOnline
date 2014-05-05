@@ -1,3 +1,121 @@
-body > .container {
-  margin-top: 50px;
+body {
+  background-color: #f1f1f1;
+}
+.navbar {
+  margin-bottom: 0;
+}
+.contenido {
+  margin-top: 2em;
+}
+/* ****************  Genericas  *************** */
+.bg-importante {
+  background-color: #5cb85c;
+}
+.bg-blanco {
+  background-color: #fff;
+}
+.sombra {
+  -webkit-box-shadow: 0 0 8px rgba(0,0,0,0.6);
+  box-shadow: 0 0 8px rgba(0,0,0,0.6);
+}
+/* ****************  Pagina Asignatura  *************** */
+.encabezado {
+  position: relative;
+}
+.encabezado .titulo {
+  display: inline-block;
+}
+.encabezado .suscribete {
+  margin-left: 1em;
+  margin-bottom: 1em;
+}
+.encabezado .opciones {
+  position: absolute;
+  right: 0;
+  top: 2rem;
+}
+.encabezado .opciones .glyphicon {
+  font-size: 1.5em;
+}
+.mensaje-del-dia {
+  padding: 1em;
+  border-radius: 10px;
+  margin: 2em 0 2em 0;
+  color: #fff;
+  background-color: #5cb85c;
+  border: 3px solid #fff;
+}
+.mensaje-del-dia .glyphicon {
+  font-size: 90%;
+  margin-right: 1rem;
+}
+.mensaje-del-dia p {
+  font-size: 1.2em;
+}
+.panel-documentos {
+  border-color: #428bca;
+}
+.panel-documentos .panel-heading {
+  color: #fff;
+  background-color: #428bca;
+  border-color: #428bca;
+}
+.panel-documentos .panel-heading .asignatura,
+.panel-documentos .panel-heading .titulo,
+.panel-documentos .panel-heading .descripcion {
+  margin: 0;
+  color: inherit;
+}
+.panel-documentos .panel-body {
+  background-color: #f1f1f1;
+}
+.panel-documentos .panel-footer {
+  border-color: #428bca;
+  background-color: #ebf0f4;
+}
+.panel-documentos ul {
+  list-style: none;
+}
+.panel-documentos ul a {
+  padding-left: 1em;
+}
+/* **************** Pagina Listado  *************** */
+.panel-asignatura {
+  border-color: #428bca;
+  margin-bottom: 2em;
+}
+.panel-asignatura .panel-heading {
+  background-color: #428bca;
+  border-color: #428bca;
+  color: #fff;
+  font-size: 1.5em;
+  cursor: pointer;
+}
+.panel-asignatura .panel-heading a {
+  color: inherit;
+}
+.panel-asignatura .panel-footer {
+  background-color: #ebf0f4;
+  padding: 5px;
+}
+.busqueda .row {
+  padding-top: 1em;
+}
+.listado-asignatura {
+  margin-top: 2em;
+}
+/* ****************  Pagina Inicio  *************** */
+.ultimos-documentos {
+  margin-top: 2em;
+}
+.tabla {
+  display: table;
+}
+.tabla .tabla-row {
+  display: table-row;
+}
+.tabla .tabla-row .nombre-doc,
+.tabla .tabla-row .link-doc {
+  display: table-cell;
+  padding-left: 1em;
 }

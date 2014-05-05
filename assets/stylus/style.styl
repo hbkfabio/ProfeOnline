@@ -1,2 +1,108 @@
-body > .container
-    margin-top 50px
+$azul      = #428bca
+$blanco    = #fff
+$celeste   = #ebf0f4
+$plomo     = #f1f1f1
+$verde     = #5cb85c
+
+body
+    background-color $plomo
+.navbar
+    margin-bottom 0
+.contenido
+    margin-top 2em
+
+/* ****************  Genericas  *************** */
+.bg-importante
+    background-color $verde
+.bg-blanco
+    background-color $blanco
+.sombra
+    -webkit-box-shadow: 0 0 8px rgba(0,0,0,0.6);
+    box-shadow: 0 0 8px rgba(0,0,0,0.6);
+
+/* ****************  Pagina Asignatura  *************** */
+.encabezado
+    position relative
+    // background-color orange
+    .titulo
+        display inline-block
+    .suscribete
+        margin-left 1em
+        margin-bottom 1em
+    .opciones
+        position absolute
+        right 0
+        top 2rem
+        .glyphicon
+            font-size 1.5em
+
+.mensaje-del-dia
+    padding 1em
+    border-radius 10px
+    margin 2em 0 2em 0
+    color $blanco
+    background-color $verde
+    border 3px solid white
+    .glyphicon
+        font-size 90%
+        margin-right 1rem
+    p 
+        font-size 1.2em    
+
+.panel-documentos
+    border-color $azul
+    .panel-heading
+        color $blanco
+        background-color $azul
+        border-color $azul
+        .asignatura
+        .titulo
+        .descripcion
+            margin 0
+            color inherit
+    .panel-body
+        background-color $plomo
+    .panel-footer
+        border-color $azul
+        background-color $celeste
+
+    // listado de documentos
+    ul
+        list-style none
+        a
+            padding-left 1em
+
+
+/* **************** Pagina Listado  *************** */
+.panel-asignatura
+    border-color $azul
+    margin-bottom 2em
+    .panel-heading
+        background-color $azul
+        border-color $azul
+        color $blanco
+        font-size 1.5em
+        cursor pointer
+        a
+            color inherit
+    .panel-footer
+        background-color $celeste
+        padding 5px
+.busqueda
+    .row
+        padding-top 1em
+.listado-asignatura
+    margin-top 2em
+
+/* ****************  Pagina Inicio  *************** */
+.ultimos-documentos
+    margin-top 2em
+
+.tabla
+    display table
+    .tabla-row
+        display table-row
+        .nombre-doc
+        .link-doc
+            display table-cell
+            padding-left 1em
